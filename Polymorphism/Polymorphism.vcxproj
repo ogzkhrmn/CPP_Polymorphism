@@ -130,6 +130,7 @@
   <ItemGroup>
     <ClInclude Include="Employee.h" />
     <ClInclude Include="HourlyWorket.h" />
+    <ClInclude Include="Stack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

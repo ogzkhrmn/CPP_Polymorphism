@@ -1,5 +1,6 @@
 #include "Employee.h"
 #include "HourlyWorket.h"
+#include "Stack.h"
 
 template <class T>
 void printArray(const T* array, int length)
@@ -55,5 +56,27 @@ int main()
 	printArray(b, getLength(b));
 	printArray(c, getLength(c));
 
+	Stack<double> s(5);
+	s.push(12);
+	s.push(13);
+	s.push(14);
+	s.push(15);
+	s.push(16);
+	s.push(17);
+
+
+	cout << s.pop() << endl;
+	cout << s.pop() << endl;
+	cout << s.pop() << endl;
+	cout << s.pop() << endl;
+	cout << s.pop() << endl;
+	cout << s.pop() << endl;
+	cout << s.pop() << endl;
+	cout << s.pop() << endl;
+	cout << s.pop() << endl;
+	cout << s.pop() << endl;
+	cout << s.pop() << endl;
+	cout << s.pop() << endl;
+	cout << s.pop() << endl;
 	return 1;
 }
