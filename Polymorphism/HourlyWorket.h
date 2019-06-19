@@ -13,8 +13,8 @@ public:
 	virtual void showSalary() const;
 	void showSalaryNormal() const;
 private:
-	char* name;
-	char* surname;
-	double salary;
+	char* name{};
+	char* surname{};
+	double salary{};
 };
 
